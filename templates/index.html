@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ECS Demo</title>
+    <meta http-equiv="refresh" content="2">
+    <style>
+        body{
+            font-family: Arial;
+            background:#111827;
+            color:white;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            height:100vh;
+        }
+        .card{
+            background:#1f2937;
+            padding:30px;
+            border-radius:12px;
+            min-width:400px;
+        }
+        h1{margin-top:0;}
+        p{font-size:18px;}
+        .value{color:#22c55e;}
+    </style>
+</head>
+<body>
+<div class="card">
+    <h1>ECS Demo</h1>
+
+    <p>Container: <span class="value">{{ hostname }}</span></p>
+    <p>IP: <span class="value">{{ ip }}</span></p>
+    <p>Version: <span class="value">{{ version }}</span></p>
+    <p>Time: <span class="value">{{ time }}</span></p>
+</div>
+</body>
+</html>
